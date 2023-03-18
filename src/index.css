@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+
+.gradient-border {
+    border-bottom-width: 2px;
+    border-image: linear-gradient(310deg, #35C3F3, #8B9FE8, #E681D8, #FFA9A4, #FED2CE, #FED2CE) 6;
+}
+
+.gradient-text {
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(273.64deg, #35C3F3 11.27%, #8B9FE8 36.72%, #E681D8 61.72%, #FFA9A4 82.79%, #FED2CE 107.29%, #FED2CE 107.29%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-nano{
+    font-size:10px;
+}
+
+.search-icon {
+    position:absolute;
+    left: 15px;
+}
